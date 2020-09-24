@@ -1,0 +1,75 @@
+.shown-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.image{
+    width: 20rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    opacity: 0.3;
+}
+
+.about-project{
+     width: 50%;
+}
+.hidden-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.stack{
+  background-color: rgb(48, 48, 48);
+  padding: 8px 7px;
+  margin-top: -4px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.link{
+  position: relative;
+  bottom: 85px;
+  right: 100px;
+  font-size: 20px;
+}
+
+.link a{
+  color: rgb(192, 190, 190);
+  text-decoration: none;
+}
+
+.git{
+   margin: 20px;
+  
+}
+.project-details{
+    padding:  18px 50px;
+    animation-name: project;
+    animation-duration: 4s;
+    position: relative; 
+}
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@keyframes project {
+    0%{
+      top: -30px;    
+    }
+
+    50%{
+      top:40px ;   
+    }
+
+    100%{
+        top:40px ;
+         
+      }
+}
+

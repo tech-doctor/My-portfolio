@@ -1,0 +1,48 @@
+.success {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(12, 12, 12);
+    padding: 0;  
+  }
+
+  .fa-check{
+    animation-name: Grow;
+    animation-duration: 0.5s;
+  }
+  @keyframes Grow {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .back-contact{
+     padding: 10px 20px;
+     background-color: rgb(87, 86, 86);
+     color: rgb(209, 209, 209);
+     border: none;
+  }
+ 
+  h1{
+    font-size: 30px;
+  }
+
+
+  .success-content{
+    margin: 100px;
+  }
+
+  @media(max-width:700px){
+    .success-content{
+      margin: 50px ;
+    }
+  }

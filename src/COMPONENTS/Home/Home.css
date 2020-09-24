@@ -1,0 +1,21 @@
+.home{
+     text-align: center;
+     padding: 0px 20px;
+}
+
+.profile-pics{
+     width: 7rem;
+     border-radius: 50%;
+     box-shadow: 3px 2px 6px 2px;
+     border-color: rgb(155, 155, 155);
+     margin-top: 50px;
+}
+
+.link-to-project *{
+     text-decoration: none;
+     color: white;
+     background-color: rgb(54, 54, 54);
+     border: none;
+     padding: 10px 15px;
+}
+

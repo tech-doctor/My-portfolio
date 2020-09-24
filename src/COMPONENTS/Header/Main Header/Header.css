@@ -1,0 +1,49 @@
+
+.all-header{
+    background-color: rgb(19, 19, 19);
+}
+
+.header{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding: 5px 30px 5px 30px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.nav-bar * {
+    color: rgb(153, 151, 151);
+    list-style: none;
+    text-decoration: none;
+     display: flex;  
+    margin-left: 10px;
+    align-items: center;
+}
+
+
+
+.logo * {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+@media(max-width: 800px){
+    .nav-bar li{
+        display: none;
+    }
+}
+
+@media(min-width: 800px){
+    .fa-bars{
+        display: none;
+    }
+}
+
+
+/* ///////////////////MOBILE////////////////////////*/
+
+
+
+ 

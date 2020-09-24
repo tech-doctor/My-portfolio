@@ -1,0 +1,57 @@
+.mobile-nav *{
+    background-color: rgb(19, 19, 19);
+    color: rgb(153, 151, 151);
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 0px;
+    display: flex;  
+    justify-content: space-around;
+    width: 100%;
+    z-index: 1000;
+     overflow-x: hidden;
+     float: right;
+     animation-name: slide;
+    animation-duration: 1s;   
+    /* animation-iteration-count: infinite; */
+     
+}
+
+@keyframes slide {
+    0%{
+        width: 0%;
+        top:0;
+    }
+
+    50%{
+        width: 100%;
+        top:20px;
+    }
+}
+    
+
+.mobile-nav{
+    height: 70px;
+    top: 0;
+    right: 0;
+    
+    
+}
+
+/* #side-menu {
+    height: 80%;
+    width: 0;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    position: fixed;
+    float: right;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 90px;
+    opacity:0.9;
+    transition-duration: 0.3s;
+    border-top-left-radius: 20px;
+}
+
+ */
+
