@@ -7,7 +7,7 @@ import './Home.css'
         return (
             <div className = "home">
               <div className = "profile picture">
-                <img className = 'profile-pics' src= "img/PROFILE PICS.jpg" alt= "my picture"></img>
+                <img className = 'profile-pics' src= "img/PROFILE PICS.jpg" alt= "my pics"></img>
              </div>
               <div className = "home-content">
                 <p>Hi, my name is</p>

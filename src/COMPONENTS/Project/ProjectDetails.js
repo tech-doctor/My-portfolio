@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import './project.css'
 // import {Accordion, AccordionItem, AccordionItemButton, AccordionItemHeading, AccordionItemPanel} from 'react-accessible-accordion'
-import {Accordion, AccordionItem, AccordionHeader,AccordionIcon,AccordionPanel, Box} from '@chakra-ui/core'
+import {Accordion, AccordionItem, AccordionHeader,AccordionPanel, Box} from '@chakra-ui/core'
 // import 'react-accessible-accordion/dist/fancy-example.css'
 
 export class ProjectDetails extends Component {
-  constructor(props){
-     super(props)
-    // this.state = {
-    //   Contentvisible: false
-    // }
-  }
+  // constructor(props){
+  //    super(props)
+  //   // this.state = {
+  //   //   Contentvisible: false
+  //   // }
+  // }
 
 //  iconClicked = () => {
 //    this.setState({
@@ -54,8 +54,8 @@ export class ProjectDetails extends Component {
 //  }
 
   render() {
-     const {projectArray} = this.props
-    const {id, title, icon, aboutProject, live, git, image, stack, isPrivate} = this.props.data
+    // const {projectArray} = this.props
+   // const {id, title, icon, aboutProject, live, git, image, stack, isPrivate} = this.props.data
       return (
 
          <div>
@@ -63,7 +63,7 @@ export class ProjectDetails extends Component {
   <AccordionItem  >
     <AccordionHeader>
       <Box flex ="1" textAlign = 'left'>
-        {title}
+        <p>title</p>
       </Box>
     </AccordionHeader>
     <div className = 'try-style'>
@@ -108,12 +108,12 @@ export class ProjectDetails extends Component {
   }
 }
 
-const btnStyle = {
-    background: 'rgb(26, 26, 26)',
-    color: 'white',
-    border: 'none',
-    fontSize: '25px'
-}
+// const btnStyle = {
+//     background: 'rgb(26, 26, 26)',
+//     color: 'white',
+//     border: 'none',
+//     fontSize: '25px'
+// }
 
 export default ProjectDetails
 
@@ -143,12 +143,5 @@ export default ProjectDetails
 //     </AccordionItemPanel>
 // </AccordionItem>
 // </Accordion>   */}
-
-
-{/* <Accordion>
-  <AccordionItem>Zero</AccordionItem>
-  <AccordionItem>one</AccordionItem>
-  <AccordionItem>Two</AccordionItem>
-</Accordion> */}
 
 
