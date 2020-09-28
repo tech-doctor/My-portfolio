@@ -7,12 +7,15 @@
     bottom: 0;
     background-color: rgb(12, 12, 12);
     padding: 0;  
+    text-align: center;
   }
 
   .fa-check{
     animation-name: Grow;
     animation-duration: 0.5s;
   }
+
+
   @keyframes Grow {
     0% {
       transform: scale(1);
@@ -43,6 +46,6 @@
 
   @media(max-width:700px){
     .success-content{
-      margin: 50px ;
+      margin: 40px ;
     }
   }

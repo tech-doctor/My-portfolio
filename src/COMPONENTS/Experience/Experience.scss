@@ -1,0 +1,52 @@
+
+
+.experience{
+    padding: 20px;
+    background-color: rgb(17, 17, 17);
+    margin: 30px;
+}
+.divider{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+   font-family: monospace;
+    font-weight: lighter;
+    color: white;
+    font-size: 18px;
+    // justify-content: space-between;
+ }
+
+.description{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(124, 124, 124);
+
+}
+
+ .title p span {
+     font-size: 12px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(124, 124, 124);
+    }
+
+ .experience-content *{
+      margin: 10px;
+ }
+ .experience-heading{
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+ }
+
+.experience-content .divider span{
+    flex-grow: 1;
+    height: 1px;
+   background-color: #777778;
+}
+
+@media (max-width:600px){
+    .experience{
+        margin:15px;
+    }
+}

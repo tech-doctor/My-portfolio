@@ -1,0 +1,35 @@
+ .about{
+    padding: 15px;
+}
+#line{
+    width: 110px;
+    margin-left: 0px;
+} 
+
+.tech-content{
+    padding: 8px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;   
+*{
+    padding: 7px;
+}
+}
+
+.get-in-touch{
+    text-align: center;
+    margin-top: 55px;
+button{
+    padding: 7px;
+    border-radius: 6px;
+    border: dotted;
+    border-color: white;
+    color: white;
+    background: rgb(26, 26, 26);
+    cursor: pointer;
+}
+*{
+    text-decoration: none;
+    color: white;
+}
+}

@@ -53,7 +53,7 @@
     position: relative; 
 }
 
-.title{
+ .shown-content .title{
   font-size: 20px;
   font-weight: bold;
 }
