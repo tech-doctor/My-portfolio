@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Home from '../COMPONENTS/Home/Home';
 import About from '../COMPONENTS/About/About';
 import Experience from '../COMPONENTS/Experience/Experience';
@@ -9,8 +9,24 @@ import Header from '../COMPONENTS/Header/Main Header/Header'
 import Logo from '../COMPONENTS/Home/Home'
 import './App.css';
 
+//class Logo extends Component
+class App extends Component {
 
-function App() {
+   state ={
+     loading: true
+   };
+
+   componentDidMount() {
+     demoAsyncCall().then(() => this.setState({loading: false}));
+   }
+
+
+  render(){
+    const { loading } = this.state;
+      
+    if(loading) {
+      return <div className = "loading"></div>
+    }
   return (
     <div>
     <Router>
@@ -69,6 +85,11 @@ function App() {
     </div>
     
   );
+  }
+}
+
+function demoAsyncCall() {
+  return new Promise((resolve) => setTimeout(() => resolve(), 4000))
 }
 
 export default App;

@@ -23,32 +23,6 @@ class About extends Component {
     
                <p>I have a great time management skill and the ability to deliver before deadlines.</p>
                </div>
-                {/* <div className = 'tech'>
-                    
-                    <ul>
-                        <li>
-                        JavaScript(ES6+)
-                        </li>
-                        <li> 
-                            HTML & CSS
-                        </li>
-
-                        <li> 
-                            SASS
-                        </li>
-
-                        <li> 
-                            ReactJS & Redux
-                        </li>
-                        <li> 
-                            Wordpress
-                        </li>
-                        <li> 
-                           Firebase
-                        </li>
-                    </ul>
-                </div> */}
-
                 <div className = "tech">
                 <p>Here are the technologies  I recently worked with:</p>
                 <div className =" tech-content">

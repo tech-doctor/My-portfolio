@@ -1,16 +1,19 @@
 
-
 .experience{
     padding: 20px;
     background-color: rgb(17, 17, 17);
     margin: 30px;
+    
 }
+
+
+
 .divider{
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     margin-top: 15px;
-   font-family: monospace;
+   font-family: sans-serif;
     font-weight: lighter;
     color: white;
     font-size: 18px;
@@ -23,6 +26,12 @@
 
 }
 
+.title *:not(span) {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: rgb(238, 238, 238)
+}
+
  .title p span {
      font-size: 12px;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,6 +41,7 @@
  .experience-content *{
       margin: 10px;
  }
+
  .experience-heading{
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -45,8 +55,37 @@
    background-color: #777778;
 }
 
+.home-project{
+    text-align: center;
+}
+.experience-home{
+    //  text-decoration: none;
+     color: white;
+      background-color: rgb(54, 54, 54);
+     border: none;
+     padding: 10px 15px;
+     margin-right: 10px;
+}
+
+.experience-project{
+    text-decoration: none;
+     color: white;
+     background-color: rgb(54, 54, 54);
+     border: none;
+     padding: 10px 15px;
+}
+
+
+
+
+
+
 @media (max-width:600px){
     .experience{
         margin:15px;
     }
+
+    .experience-content title{
+        margin: 5px;
+   }
 }

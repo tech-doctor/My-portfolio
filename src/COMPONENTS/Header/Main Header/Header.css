@@ -23,10 +23,12 @@
 
 
 
-.logo * {
+.logo *{
     color: white;
     list-style: none;
     text-decoration: none;
+    font-family: cursive;
+    font-weight: lighter;
 }
 
 @media(max-width: 800px){

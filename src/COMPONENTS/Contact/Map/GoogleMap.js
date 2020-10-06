@@ -23,9 +23,9 @@ import './GoogleMap.css'
 }
 
 const mapStyles = {
-    width: '75%',
+    width: '85%',
     margin: 'auto',
-    height: '50%'
+    height: '40%'
 }
 
 export default GoogleApiWrapper({

@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import './Experience.scss'
+import {Link} from 'react-router-dom'
 
  class Experience extends Component {
     render() {
         return (
+            <div>
             <div className ="experience">
               <div className ="experience-heading">
                  <h2>Experience</h2>
@@ -33,7 +35,7 @@ import './Experience.scss'
                 <article className = " description">
                     <p>Built usable product with backend developers and other frontend team</p>
 
-                    <p><span>■</span>I leveled up my development skills by focusing on core-curriculum</p>
+                    <p><span>■</span>I leveled up my development skills by focusing on core-curriculum contents</p>
                 <p><span>■</span> Managed source code with github</p>     
                 </article>
               </section>
@@ -83,14 +85,18 @@ import './Experience.scss'
 
               <section className = "experience-content">
                 <div className = "title">
-                    <p>Fontend Mentor<span><br/>JUNE 2020 - PRESENT</span></p>
+                    <p>Frontend Mentor<span><br/>JUNE 2020 - PRESENT</span></p>
                 </div>
                 <article className = " description">
                     <p>Take part in the coding seasonal challeges</p>
-        
                 </article>
               </section>
-              </div> 
+              </div>
+            <div className="home-project">
+                 <Link to='/'> <button className ="experience-home"> Home</button></Link>
+                 <Link to='/project'> <button className = "experience-project">Project ➜ </button></Link>  
+            </div>
+              </div>
         )
     }
 }

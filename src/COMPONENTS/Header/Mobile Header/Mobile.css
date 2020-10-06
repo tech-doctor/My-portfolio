@@ -8,12 +8,10 @@
     justify-content: space-around;
     width: 100%;
     z-index: 1000;
-     overflow-x: hidden;
-     float: right;
-     animation-name: slide;
-    animation-duration: 1s;   
-    /* animation-iteration-count: infinite; */
-     
+    overflow-x: hidden;
+    float: right;
+    animation-name: slide;
+    animation-duration: 1s;       
 }
 
 @keyframes slide {
@@ -27,31 +25,98 @@
         top:20px;
     }
 }
-    
 
 .mobile-nav{
     height: 70px;
     top: 0;
-    right: 0;
-    
-    
+    right: 0;   
+    position: relative; 
 }
 
-/* #side-menu {
-    height: 80%;
-    width: 0;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    position: fixed;
-    float: right;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 90px;
-    opacity:0.9;
-    transition-duration: 0.3s;
-    border-top-left-radius: 20px;
+#home .FaIcon:before {
+    content: '\f015';
+}    
+#about .FaIcon:before {
+    content: '\f007';
+}    
+#experience .FaIcon:before {
+    content: '\f121';
+}    
+#project .FaIcon:before {
+    content: '\f5fc';
+}   
+#contact .FaIcon:before {
+    content: '\f0e0';
+}
+       
+#home .FaIcon,
+#about .FaIcon,
+#experience .FaIcon,
+#project .FaIcon,
+#contact .FaIcon {
+    font-size: 15px;
+}
+    
+.mobile-nav a :hover,
+.mobile-nav a.active {
+    color: white; 
 }
 
- */
+.mobile-nav .FaIcon{
+    transition: all 0.3s ease-out;
+}
+   
+.mobile-nav a .FaIcon:hover::before {
+    opacity: 0; 
+}
 
+#home .FaIcon::after,
+#about .FaIcon:after,
+#experience .FaIcon:after,
+#project .FaIcon:after,
+#contact .FaIcon:after{
+  content: '';
+  font-size: 9px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 40px;
+  opacity: 0;
+  transition: all 0.5s ease-out; }
+
+
+#home .FaIcon:hover::after,
+#about .FaIcon:hover::after,
+#experience .FaIcon:hover::after,
+#project .FaIcon:hover::after,
+#contact .FaIcon:hover::after {
+  opacity: 1; }
+
+#home .FaIcon::after {
+    content: 'HOME';
+    font-family: Font Awesome 5 Free;
+    font-weight: 50;
+    font-size: 11px;}
+
+#about .FaIcon::after {
+    content: 'ABOUT';
+    font-family: Font Awesome 5 Free;
+    font-weight: 50;
+    font-size: 11px}
+
+#experience .FaIcon::after {
+    content: 'EXPERIENCE';
+    font-family: Font Awesome 5 Free;
+    font-weight: 50;
+    font-size: 11px}
+
+#project .FaIcon::after {
+    content: 'PROJECT';
+    font-family: Font Awesome 5 Free;
+    font-weight: 50;
+    font-size: 11px}
+
+#contact .FaIcon::after {
+    content: 'CONTACT';
+    font-family: Font Awesome 5 Free;
+    font-weight: 50;
+    font-size: 11px}

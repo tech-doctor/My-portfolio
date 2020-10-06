@@ -1,10 +1,56 @@
  .about{
     padding: 15px;
+    animation: about 2.5s;
+    animation-iteration-count: 1; 
+ @keyframes about {
+    0%{
+        opacity: 0.2;
+    }
+    
+    50%{
+        opacity: 0.5;
+    }
+    
+    100%{
+    opacity: 1;
+    }
+    }
+    
 }
+
+.about-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-content{
+    color: rgb(212, 212, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.tech p {
+    color: rgb(199, 199, 199);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.tech-content {
+    padding: 15px;
+}
+
+.tech-content *:not(i){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
+    color: rgb(212, 212, 212);
+}
+
 #line{
     width: 110px;
     margin-left: 0px;
+    margin-top: -5px;
 } 
+
 
 .tech-content{
     padding: 8px;
@@ -15,6 +61,7 @@
     padding: 7px;
 }
 }
+
 
 .get-in-touch{
     text-align: center;
@@ -32,4 +79,19 @@ button{
     text-decoration: none;
     color: white;
 }
+}
+
+@media(max-width: 700px){
+    .about-content{
+        font-size: 12px;
+    }
+    .tech p {
+        font-size: 12px;
+    }
+    .tech-content *:not(i){
+        font-family: cursive;
+        color: rgb(212, 212, 212);
+        font-size: 14px;
+    }
+    
 }

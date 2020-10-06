@@ -12,35 +12,6 @@ class Header extends Component {
       }
   }
   
-    
-// onMouseMove = (id) => {
-// const elementsIndex = this.state.icon.findIndex(
-// element => element.id === id )
-// console.log(elementsIndex)
-// let newArray = [...this.state.icon]
-// newArray[elementsIndex] = {...newArray[elementsIndex],
-//  home: 'Home'}
-//  this.setState({icon: newArray}    
-// }
-
-
-// onMouseMove = () => {
-//   this.setState({icon: this.state.icon.map((data, i) => {
-//     //console.log(this.state.icon[i].id)
-//      const id = uuid();
-//     console.log(id)
-//     if(data.id == id) {
-//       data.home =  'Home'
-//       data.about = 'About'
-//       data.experience = 'Experience'
-//       data.project = 'Project'
-//       data.contact = 'Contact'
-//     }     
-//        return data;
-//   })
-//   })  
-// }
-
    getstyle = () => {
      return{
        display: this.state.Mobilevisible? 
@@ -58,7 +29,7 @@ class Header extends Component {
         <div className = "all-header">
         <div className = " header">
           <div className = "logo">
-            <h3><Link to = "/">Logo</Link></h3>
+            <h1><Link to = "/">Isaac.</Link></h1>
           </div>
           <div className = "nav-bar">
           <ul>
