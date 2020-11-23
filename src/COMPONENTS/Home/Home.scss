@@ -2,6 +2,7 @@
   text-align: center;
   padding: 0px 20px;  
   animation: about 0.5s;
+  margin-top: 50px;
 }
 
 
@@ -32,13 +33,11 @@
 }
 
 .profile-pics{
-  width: 7rem;
-  border-radius: 45%;
-  /* box-shadow: 3px 2px 6px 2px;
-  border-color: rgb(155, 155, 155); */
+  width: 160px;
+  height: 180px ;
+  border-radius: 50%;
   margin-top: 35px;
-  /* padding: 12% 4% 10% 5%; */
-  position: relative;
+  // position: relative;
 }
 
 .link-to-project *{
@@ -47,6 +46,10 @@
   background-color: rgb(54, 54, 54);
   border: none;
   padding: 10px 15px;
+}
+
+.link-to-project *:hover{
+  background-color: rgb(65, 65, 65);
 }
 
 @media(max-width:700px) {

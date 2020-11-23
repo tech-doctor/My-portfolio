@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Address.css'
+import './Address.scss'
 
  class Address extends Component {
     render() {

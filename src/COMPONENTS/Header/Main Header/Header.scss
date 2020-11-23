@@ -12,13 +12,17 @@
     align-items: center;
 }
 
-.nav-bar * {
+.nav-bar *{
     color: rgb(153, 151, 151);
     list-style: none;
     text-decoration: none;
      display: flex;  
     margin-left: 10px;
     align-items: center;
+}
+
+.nav-bar *:hover{
+    color: white;
 }
 
 
@@ -28,6 +32,11 @@
     list-style: none;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav-content:hover {
+    color: white;
 }
 
 @media(max-width: 800px){

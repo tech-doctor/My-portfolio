@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
-import './Home.css'
+import './Home.scss'
 
  class Logo extends Component {
     render() {
         return (
             <div className = "home">
               <div className = "profile picture">
-                <img className = 'profile-pics' src= "img/PROFILE PICS.jpg" alt= "my pics"></img>
+                <img className = 'profile-pics' src= "img/profile-pics4.jpg" alt= "my pics"></img>
               </div>
               <div className = "home-content">
                 <p>Hi, I'm</p>

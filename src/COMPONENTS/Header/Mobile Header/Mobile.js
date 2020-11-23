@@ -1,5 +1,5 @@
 import React  from 'react';
-import './Mobile.css';
+import './Mobile.scss';
 import { NavLink } from 'react-router-dom';
 
 

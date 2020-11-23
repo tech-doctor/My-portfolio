@@ -7,9 +7,9 @@ import Contact from '../COMPONENTS/Contact/Contact';
 import {BrowserRouter as Router, Route, Switch,} from 'react-router-dom';
 import Header from '../COMPONENTS/Header/Main Header/Header'
 import Logo from '../COMPONENTS/Home/Home'
-import './App.css';
+import './App.scss';
 
-//class Logo extends Component
+
 class App extends Component {
 
    state ={
@@ -50,14 +50,14 @@ class App extends Component {
     </Router>
        
         <div className ="mobile-social">
-                  <a href='https://github.com/tech-doctor' target='_blank' title = "Github" rel="noopener noreferrer"><i className = 'fab fa-github'></i></a>
-                  <a href='https://twitter.com/Rh_izaac' target='_blank' title = "Twitter" rel="noopener noreferrer"><i className = 'fab fa-twitter'></i></a>
-                  <a href='https://www.linkedin.com/in/oluka-damilola-isaac-b50783174/' target='_blank' title = "LinkedIn" rel="noopener noreferrer"><i className = 'fab fa-linkedin'></i></a>
-                  <a href='https://web.facebook.com/oluka.isaac.583' target='_blank' title = "Facebook" rel="noopener noreferrer"><i className = 'fab fa-facebook'></i></a>
-                 {/* <a href='https://www.instagram.com/risux_iz/' target='_blank' title = "Instagram" rel="noopener noreferrer"><i className = 'fab fa-instagram'></i></a> */}
+          <a href='https://github.com/tech-doctor' target='_blank' title = "Github" rel="noopener noreferrer"><i className = 'fab fa-github'></i></a>
+          <a href='https://twitter.com/Rh_izaac' target='_blank' title = "Twitter" rel="noopener noreferrer"><i className = 'fab fa-twitter'></i></a>
+          <a href='https://www.linkedin.com/in/oluka-damilola-isaac-b50783174/' target='_blank' title = "LinkedIn" rel="noopener noreferrer"><i className = 'fab fa-linkedin'></i></a>
+          <a href='https://web.facebook.com/oluka.isaac.583' target='_blank' title = "Facebook" rel="noopener noreferrer"><i className = 'fab fa-facebook'></i></a>
+          <a href='https://www.instagram.com/risux_iz/' target='_blank' title = "Instagram" rel="noopener noreferrer"><i className = 'fab fa-instagram'></i></a>
         </div>
 
-
+      <div>
       <div className = 'access'>
       <div className ="footer">
         <div className ="social">
@@ -70,7 +70,7 @@ class App extends Component {
         <div className ="mail">
           <p>hilghsilk2damson@gmail.com</p>
         </div>
-      </div>
+      </div> 
       <div className = "vertical-flex">
         <div className = "v1">
 
@@ -78,18 +78,21 @@ class App extends Component {
         <div className = "v2">
 
         </div>
+      </div> 
+    </div>
+    </div>
+     {/* <div className = "copyright">
+        <span>All reserved ©2020 </span><br></br>
+        <span>Oluka Isaac(Tech-Doctor)</span>
+      </div> */}
       </div>
-      
-    </div>
-    
-    </div>
     
   );
   }
 }
 
 function demoAsyncCall() {
-  return new Promise((resolve) => setTimeout(() => resolve(), 4000))
+  return new Promise((resolve) => setTimeout(() => resolve(), 0))
 }
 
 export default App;

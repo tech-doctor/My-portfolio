@@ -1,51 +1,28 @@
 
 
-/* .navBar{
-    text-align: center;
-} */
-
- /* .v1 {
-    border-left: 2px solid rgb(13, 14, 13);
-    width: 90%;
-    border-right: 2px solid rgb(13, 14, 13);
-    height: 10vh;
-    position: relative;
-    margin:  auto;
-    top: 650px
-    
-}  */
-
  .v1 {
     border-left: 1px solid rgb(255, 255, 255);
-    height: 80px;
-    margin-left: 40px;
-
+    height: 20%;
+    position: fixed;
+    left: 30px;
+    top: 630px;
  }
 
+ 
  .v2 {
     border-left: 1px solid rgb(255, 255, 255);
-    height: 80px;
-    margin-right: 40px;
+    height: 20%;
+    position: fixed;
+    right: 30px;
+    top: 630px;
  }
 
- .vertical-flex {
-     display: flex;
-     justify-content: space-between;
-     position: relative; 
-     top: 530px ; 
-     
- }
-
- .footer{
-     display: flex;
-     justify-content: space-between;
- }
 
  .social{
     transform: rotate(-90deg);
-    position: relative; 
-    top: 400px ;
-    margin-left: -75px;
+    position: fixed; 
+    top: 490px ;
+    left: -90px;
     
 
  }
@@ -58,9 +35,9 @@
 
  .mail{
     transform: rotate(90deg);
-    position: relative; 
-    top: 400px ;
-    margin-right: -77px;
+    position: fixed; 
+    top: 480px ;
+    right: -87px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     color: white;
@@ -70,11 +47,6 @@
      color: white;
      text-decoration: none;
  }
-
- /* .access{
-    position: fixed;
-   
- } */
 
  .mobile-social{
      text-align: center;
@@ -94,7 +66,7 @@
    text-decoration: none;
  }
 
- @media(max-width:800px) {
+  @media(max-width:800px) {
     .access{
        display:none;
     }
@@ -106,7 +78,7 @@
     }
  }
  
- 
+
 
 
  

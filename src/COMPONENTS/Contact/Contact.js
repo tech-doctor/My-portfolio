@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Form from './Form/Form'
 import Map from './Map/GoogleMap'
-import './Contact.css'
 
 
 class Contact extends Component {

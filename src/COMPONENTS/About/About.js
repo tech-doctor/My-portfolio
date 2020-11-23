@@ -19,7 +19,7 @@ class About extends Component {
         
                <p>I am a  passionate developer  community memeber that loves to make contributions on  opensource  projects.
                I also love discussing about tech and how the world can be changed through it</p>
-               <p>I'm currently  a student of  the <a href = "https://www.uniben.edu/" target='_blank' title = "Uniben" rel="noopener noreferrer">University of Benin</a> therefore, remote employment is preferrred</p>
+               <p>I'm currently  a student of  the <a href = "https://www.uniben.edu/" target='_blank' title = "UNIBEN" rel="noopener noreferrer">University of Benin</a> therefore, remote employment is preferrred</p>
     
                <p>I have a great time management skill and the ability to deliver before deadlines.</p>
                </div>

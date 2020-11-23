@@ -22,9 +22,17 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .about-content{
-    color: rgb(212, 212, 212);
+    color: rgb(247, 247, 247);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+}
+
+.about-content a {
+    text-decoration: none;
+    color: rgb(209, 188, 147);
+}
+.about-content a:hover{
+    text-decoration: underline;
 }
 
 
@@ -41,8 +49,7 @@
 
 .tech-content *:not(i){
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: cursive;
-    color: rgb(212, 212, 212);
+    color: rgb(228, 228, 228);
 }
 
 #line{
@@ -66,6 +73,7 @@
 .get-in-touch{
     text-align: center;
     margin-top: 55px;
+
 button{
     padding: 7px;
     border-radius: 6px;
@@ -81,6 +89,13 @@ button{
 }
 }
 
+@media (min-width: 800px) {
+    .about{
+        width: 90%;
+        margin: auto;
+    }
+}
+
 @media(max-width: 700px){
     .about-content{
         font-size: 12px;
@@ -89,9 +104,9 @@ button{
         font-size: 12px;
     }
     .tech-content *:not(i){
-        font-family: cursive;
         color: rgb(212, 212, 212);
         font-size: 14px;
     }
     
 }
+

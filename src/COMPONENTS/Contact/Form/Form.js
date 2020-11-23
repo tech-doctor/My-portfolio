@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Form.css'
+import './Form.scss'
 import Success from './Success/Success'
 import Address from '../Address/Address'
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './project.css'
+import './project.scss'
 
 class ProjectDetails extends Component {
   constructor(props){
@@ -50,13 +50,13 @@ class ProjectDetails extends Component {
         <hr></hr>
           <div className = 'hidden-content'  style = {this.getContentStyle()} >
             <div className = 'about-project'>
-              <p>{aboutProject}</p>
+              <p>{aboutProject} {isPrivate? '': <span>check source code <a href = {git} target = '_blank'  rel = "noopener noreferrer" title= 'Github repository'>here</a></span>}</p>
             </div>
             <div className = 'pics'>
               <img className = 'image' src = {image} alt = "project pics"/>
               <p className = 'stack'>{stack}</p>
-              <span className = "link live"><a href = {live} target='_blank' title ="View project" rel="noopener noreferrer"><i className = 'fas fa-external-link-alt fa-1x'></i></a></span>
-              {isPrivate? '' : (<span className = "link git"><a href = {git} target='_blank' title = "Github repo" rel="noopener noreferrer"> <i className="fab fa-github fa-1x"></i></a></span>)}
+              <span className = "link live"><a href = {live} target='_blank' title ="View project" rel="noopener noreferrer">View.</a></span>
+              {/* {isPrivate? '' : (<span className = "link git"><a href = {git} target='_blank' title = "Github repo" rel="noopener noreferrer"> <i className="fab fa-github fa-1x"></i></a></span>)} */}
             </div>
             <div className = 'project-link'>  
             </div>
@@ -67,10 +67,11 @@ class ProjectDetails extends Component {
 }
 
 const btnStyle = {
-    background: 'rgb(26, 26, 26)',
-    color: 'white',
-    border: 'none',
-    fontSize: '25px',
+  background: 'rgb(26, 26, 26)',
+  color: 'white',
+  border: 'none',
+  outline: 'none',
+  fontSize: '25px',
 }
 
 export default ProjectDetails

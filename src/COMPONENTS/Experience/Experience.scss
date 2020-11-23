@@ -7,7 +7,6 @@
 }
 
 
-
 .divider{
     display: flex;
     align-items: center;
@@ -17,7 +16,6 @@
     font-weight: lighter;
     color: white;
     font-size: 18px;
-    // justify-content: space-between;
  }
 
 .description{
@@ -76,8 +74,13 @@
 }
 
 
-
-
+@media (min-width: 800px) {
+    .experience{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 
 @media (max-width:600px){

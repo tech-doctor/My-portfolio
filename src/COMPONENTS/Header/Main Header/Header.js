@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import './Header.scss';
 import Mobile from '../Mobile Header/Mobile.js'
 
 
@@ -33,11 +33,11 @@ class Header extends Component {
           </div>
           <div className = "nav-bar">
           <ul>
-            <li><Link to = "/">Home</Link></li>
-            <li><Link to = "/about">About</Link></li>
-            <li><Link to = "/experience">Experience</Link></li>
-            <li><Link to = "/project">Project</Link></li>
-            <li><Link to = "/contact">Contact</Link></li>  
+            <li className = "nav-content"><Link to = "/">Home</Link></li>
+            <li className = "nav-content"><Link to = "/about">About</Link></li>
+            <li className = "nav-content"><Link to = "/experience">Experience</Link></li>
+            <li className = "nav-content"><Link to = "/project">Project</Link></li>
+            <li className = "nav-content"><Link to = "/contact">Contact</Link></li>  
             <button className = "fas fa-bars"
              onClick = {this.onClick}
              style = {barStyle}

@@ -10,24 +10,29 @@
 }
 
 .pics:hover{
-  transform: scale(1.1);
-  transition-duration: 1s;
+  transform: scale(1.05);
+  transition-duration: 0.5s;
 }
 
 .image{
     width: 18rem;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     margin-top: 10px;
     opacity: 0.3;
 }
 
 
 .about-project{
-     width: 50%;
-     color: rgb(201, 200, 200);
-     font-family: 'Courier New', Courier, monospace;
+  width: 50%;
+  color: rgb(201, 200, 200);
+  font-family: 'Courier New', Courier, monospace;
 }
+
+.about-project span a{
+  color: rgb(240, 240, 240);
+}
+
 .hidden-content {
     display: flex;
     align-items: center;
@@ -57,8 +62,8 @@
   background-color: rgb(48, 48, 48);
   padding: 12px 15px;
   margin-top: -4px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   color: rgb(221, 221, 221);
   font-family: monospace;
   
@@ -70,15 +75,23 @@
 
 .link{
   position: relative;
-  bottom: 45px;
-  /* left: 0px; */
+  bottom: 42px;
   padding-left: 8px;
-  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 .link a{
-  color: rgb(192, 190, 190);
+  color: rgb(187, 183, 183);
   text-decoration: none;
+}
+.fa-eye{
+  margin-left: 5px;
+}
+
+.link a:hover{
+  text-decoration: underline;
+  color: rgb(236, 236, 236);
 }
 
 
@@ -114,6 +127,13 @@
       }
 }
 
+
+@media (min-width: 800px) {
+  .project{
+      width: 90%;
+      margin: auto;
+  }
+}
 @media (max-width:700px){
   .project-details{
     padding:  18px 30px;

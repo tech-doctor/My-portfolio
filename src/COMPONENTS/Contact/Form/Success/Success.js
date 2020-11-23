@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Success.css'
+import './Success.scss'
 
 class Success extends Component {
     render() {
