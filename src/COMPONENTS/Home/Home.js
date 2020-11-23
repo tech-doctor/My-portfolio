@@ -7,7 +7,7 @@ import './Home.scss'
         return (
             <div className = "home">
               <div className = "profile picture">
-                <img className = 'profile-pics' src= "img/profile-pics4.jpg" alt= "my pics"></img>
+                <img className = 'profile-pics' src= "img/profile-pics3.jpg" alt= "my pics"></img>
               </div>
               <div className = "home-content">
                 <p>Hi, I'm</p>
