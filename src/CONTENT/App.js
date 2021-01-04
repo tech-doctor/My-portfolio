@@ -51,20 +51,20 @@ class App extends Component {
        
         <div className ="mobile-social">
           <a href='https://github.com/tech-doctor' target='_blank' title = "Github" rel="noopener noreferrer"><i className = 'fab fa-github'></i></a>
-          <a href='https://twitter.com/Rh_izaac' target='_blank' title = "Twitter" rel="noopener noreferrer"><i className = 'fab fa-twitter'></i></a>
+          <a href='https://twitter.com/Techie_Doctor' target='_blank' title = "Twitter" rel="noopener noreferrer"><i className = 'fab fa-twitter'></i></a>
           <a href='https://www.linkedin.com/in/oluka-damilola-isaac-b50783174/' target='_blank' title = "LinkedIn" rel="noopener noreferrer"><i className = 'fab fa-linkedin'></i></a>
           <a href='https://web.facebook.com/oluka.isaac.583' target='_blank' title = "Facebook" rel="noopener noreferrer"><i className = 'fab fa-facebook'></i></a>
-          <a href='https://www.instagram.com/risux_iz/' target='_blank' title = "Instagram" rel="noopener noreferrer"><i className = 'fab fa-instagram'></i></a>
+          {/* <a href='https://www.instagram.com/risux_iz/' target='_blank' title = "Instagram" rel="noopener noreferrer"><i className = 'fab fa-instagram'></i></a> */}
         </div>
 
       <div>
       <div className = 'access'>
       <div className ="footer">
         <div className ="social">
-          <a href='https://www.instagram.com/risux_iz/' target='_blank' title = "Instagram" rel="noopener noreferrer"><i className = 'fab fa-instagram'></i></a>
+          {/* <a href='https://www.instagram.com/risux_iz/' target='_blank' title = "Instagram" rel="noopener noreferrer"><i className = 'fab fa-instagram'></i></a> */}
           <a href='https://web.facebook.com/oluka.isaac.583' target='_blank' title = "Facebook" rel="noopener noreferrer"><i className = 'fab fa-facebook'></i></a>
           <a href='https://www.linkedin.com/in/oluka-damilola-isaac-b50783174/' target='_blank' title = "LinkedIn" rel="noopener noreferrer"><i className = 'fab fa-linkedin'></i></a>
-          <a href='https://twitter.com/Rh_izaac' target='_blank' title = "Twitter" rel="noopener noreferrer"><i className = 'fab fa-twitter'></i></a>
+          <a href='https://twitter.com/Techie_Doctor' target='_blank' title = "Twitter" rel="noopener noreferrer"><i className = 'fab fa-twitter'></i></a>
           <a href='https://github.com/tech-doctor' target='_blank' title = "Github" rel="noopener noreferrer"><i className = 'fab fa-github'></i></a>
         </div>
         <div className ="mail">

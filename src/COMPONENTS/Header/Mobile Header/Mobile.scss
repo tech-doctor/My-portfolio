@@ -32,6 +32,12 @@
     position: relative; 
 }
 
+@media(min-width:800px){
+    .mobile-nav{
+        display: none;
+    }
+}
+
 #home .FaIcon:before {
     content: '\f015';
 }    

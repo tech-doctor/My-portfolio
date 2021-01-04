@@ -7,12 +7,13 @@ import './Home.scss'
         return (
             <div className = "home">
               <div className = "profile picture">
-                <img className = 'profile-pics' src= "img/profile-pics3.jpg" alt= "my pics"></img>
+                <img className = 'profile-pics' src= "img/profile-pics.jpg" alt= "my pics"></img>
               </div>
               <div className = "home-content">
                 <p>Hi, I'm</p>
                 <span>Oluka Damilola Isaac</span><br/>
-                <span> Software Developer | Technical writer</span>
+                {/* <span> Software Developer | Technical writer</span> */}
+                <span> ReactJS Software Developer</span>
                 <p>I am a Software Developer Based in Benin City Nigeria,I solve real life problems and bring ideas into Live products  by writing computer programs</p>
                 <div className = 'link-to-project'>
                   <button><Link to = "/project">View ➜</Link></button>

@@ -21,9 +21,9 @@ import {Link} from 'react-router-dom'
                 <article className = " description">
                     <p>Built usable product with backend developers and other frontend team</p>
 
-                    <p><span>■</span> Led my team on working coding challenge</p>
+                    <p><span>■</span> Led my frontend team on working coding challenge</p>
                 <p><span>■</span> Built Hotel booking landing page with teams of frontend developer</p> 
-                <p><span>■</span> Headed the frontend department of my team to deliver responsive web templates to be sold on envato market</p> 
+                {/* <p><span>■</span> Headed the frontend department of my team to deliver responsive web templates to be sold on envato market</p>  */}
                 <p><span>■</span>Worked with backend developers to build an airtime service web app</p> 
                 </article>
               </section>
@@ -35,8 +35,9 @@ import {Link} from 'react-router-dom'
                 <article className = " description">
                     <p>Built usable product with backend developers and other frontend team</p>
 
-                    <p><span>■</span>I leveled up my development skills by focusing on core-curriculum contents</p>
-                <p><span>■</span> Managed source code with github</p>     
+                    <p><span>■</span>I leveled up my development skills on the fundamental and core web technologies</p>
+                <p><span>■</span> I learned how to manage  code projects on Git  Github</p> 
+                <p><span>■</span> I Tested web user interaces , and secured web app with OWASP</p> 
                 </article>
               </section>
               <br/>
@@ -69,8 +70,11 @@ import {Link} from 'react-router-dom'
                     <p><span>■</span> Google developer Technical Writing course</p>
                 </article>
               </section><br/>
+              <div className ="download-cv">
+                <p>Download CV</p>
+              </div>
 
-              <section className = "experience-content">
+              {/* <section className = "experience-content">
                <div className = "divider">
                 <p>Community</p>
                 <span></span>
@@ -81,16 +85,16 @@ import {Link} from 'react-router-dom'
                 <article className = " description">
                     <p> Currently contributing to an open source project at<a href ="https://github.com/tech-doctor/DevC-benin-jobs">DevC Benin jobs</a></p>
                 </article>
-              </section><br/>
+              </section><br/> */}
 
-              <section className = "experience-content">
+              {/* <section className = "experience-content">
                 <div className = "title">
                     <p>Frontend Mentor<span><br/>JUNE 2020 - PRESENT</span></p>
                 </div>
                 <article className = " description">
                     <p>Take part in the coding seasonal challeges</p>
                 </article>
-              </section>
+              </section> */}
               </div>
             <div className="home-project">
                  <Link to='/'> <button className ="experience-home"> Home</button></Link>

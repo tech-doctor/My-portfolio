@@ -1,8 +1,25 @@
-.shown-content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.project-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0em 4em;
+  // border: 1px solid white;
+  box-shadow: 1px 1px 4px 0px; 
 
+}
+.project-heading p{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.project-heading img{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.shown-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .pics{
@@ -41,6 +58,8 @@
     animation: hidden 2s;
     animation-iteration-count: 1;
     position: relative;
+    background-color: rgb(37, 37, 37);
+    padding: 1em 0em;
 }
 
 
