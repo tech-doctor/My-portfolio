@@ -1,8 +1,8 @@
 
 .experience{
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(17, 17, 17);
-    margin: 30px; 
+     margin: 50px; 
 }
 
 
@@ -55,6 +55,9 @@
 .home-project{
     text-align: center;
 }
+.home-project a{
+    color: rgb(26, 26, 26)
+}
 .experience-home{
     text-decoration: none;
      color: white;
@@ -74,7 +77,7 @@
 .download-cv{
     text-align: center;
     background-color: #777778;
-    padding: 0.5em;
+    padding: 0.2em;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }

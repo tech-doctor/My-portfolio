@@ -16,11 +16,9 @@ import {Link} from 'react-router-dom'
                 <span></span>
                 </div>
                 <div className = "title">
-                    <p>HNG Internship<span><br/>MAY - JULY 2020</span></p>
+                    <p>1 .Hotels.NG<span><br/>MAY - JULY 2020</span></p>
                 </div>
                 <article className = " description">
-                    <p>Built usable product with backend developers and other frontend team</p>
-
                     <p><span>■</span> Led my frontend team on working coding challenge</p>
                 <p><span>■</span> Built Hotel booking landing page with teams of frontend developer</p> 
                 {/* <p><span>■</span> Headed the frontend department of my team to deliver responsive web templates to be sold on envato market</p>  */}
@@ -30,12 +28,10 @@ import {Link} from 'react-router-dom'
               <br/>
               <section className = "experience-content">
                 <div className = "title">
-                    <p>DevC Trainig With Andela<span><br/>SEP - NOV 2019</span></p>
+                    <p> 2. DevC Trainig With Andela<span><br/>SEP - NOV 2019</span></p>
                 </div>
                 <article className = " description">
-                    <p>Built usable product with backend developers and other frontend team</p>
-
-                    <p><span>■</span>I leveled up my development skills on the fundamental and core web technologies</p>
+                <p><span>■</span>I leveled up my development skills on the fundamental and core web technologies</p>
                 <p><span>■</span> I learned how to manage  code projects on Git  Github</p> 
                 <p><span>■</span> I Tested web user interaces , and secured web app with OWASP</p> 
                 </article>
@@ -71,7 +67,7 @@ import {Link} from 'react-router-dom'
                 </article>
               </section><br/>
               <div className ="download-cv">
-                <p>Download CV</p>
+                <p>Download Resume</p>
               </div>
 
               {/* <section className = "experience-content">
@@ -97,7 +93,7 @@ import {Link} from 'react-router-dom'
               </section> */}
               </div>
             <div className="home-project">
-                 <Link to='/'> <button className ="experience-home"> Home</button></Link>
+                 <Link to='/'> <button className ="experience-home">Home</button></Link>
                  <Link to='/project'> <button className = "experience-project">Project ➜ </button></Link>  
             </div>
               </div>

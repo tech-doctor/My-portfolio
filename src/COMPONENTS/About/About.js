@@ -17,9 +17,9 @@ class About extends Component {
                
                <p>As a well organised person and a problem solver, I enjoy working on ambitious projects with positive people to create things that live on the computer. My main area of specialisation is the frontend(client side of the web) with the utmost goal to providing  an almost perfect user experience</p>
         
-               <p>I am a  passionate developer  community memeber that loves to make contributions on  opensource  projects.
+               <p>I am a  passionate developer  community member that loves to make contributions on  opensource  projects.
                I also love discussing about tech and how the world can be changed through it</p>
-               <p>I'm currently  a student of  the <a href = "https://www.uniben.edu/" target='_blank' title = "UNIBEN" rel="noopener noreferrer">University of Benin</a> therefore, remote employment is preferrred</p>
+               {/* <p>I'm currently  a student of  the <a href = "https://www.uniben.edu/" target='_blank' title = "UNIBEN" rel="noopener noreferrer">University of Benin</a> therefore, remote employment is preferrred</p> */}
     
                <p>I have a great time management skill and the ability to deliver before deadlines.</p>
                </div>

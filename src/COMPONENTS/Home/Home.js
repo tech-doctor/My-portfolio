@@ -13,7 +13,7 @@ import './Home.scss'
                 <p>Hi, I'm</p>
                 <span>Oluka Damilola Isaac</span><br/>
                 {/* <span> Software Developer | Technical writer</span> */}
-                <span> ReactJS Software Developer</span>
+                <span> Software Developer</span>
                 <p>I am a Software Developer Based in Benin City Nigeria,I solve real life problems and bring ideas into Live products  by writing computer programs</p>
                 <div className = 'link-to-project'>
                   <button><Link to = "/project">View ➜</Link></button>

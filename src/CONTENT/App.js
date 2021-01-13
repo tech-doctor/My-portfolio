@@ -20,7 +20,6 @@ class App extends Component {
      demoAsyncCall().then(() => this.setState({loading: false}));
    }
 
-
   render(){
     const { loading } = this.state;
       
@@ -36,13 +35,9 @@ class App extends Component {
           <Switch>
             <Route path = "/" exact render = {() => ( <Logo/>)}/>
             <Route path = "/" exact render = {() => ( <Home/>)}/>
-
             <Route path = "/about" exact render = { () =>  (<About/>) }/>
-
             <Route path = "/experience" exact render = { () => (<Experience/>) }/>
-
             <Route path = "/project" exact render = {() => (<Project/>) }/>
-
             <Route path = "/contact" exact render = {() => ( <Contact/>)}/>
           </Switch>
         </div>
@@ -73,10 +68,8 @@ class App extends Component {
       </div> 
       <div className = "vertical-flex">
         <div className = "v1">
-
         </div>
         <div className = "v2">
-
         </div>
       </div> 
     </div>

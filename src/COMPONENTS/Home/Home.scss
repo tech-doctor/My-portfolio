@@ -50,16 +50,35 @@
   height: 185px ;
   border-radius: 50%;
   margin-top: 35px;
-  // position: relative;
 }
 
-.link-to-project *{
+.link-to-project button{
   text-decoration: none;
   color: white;
   background-color: rgb(54, 54, 54);
   border: none;
   padding: 10px 15px;
+  outline: none;
+ 
 }
+// .link-to-project *{
+//   animation: view;
+// }
+// @keyframes view{
+//    0% {
+//      top: -20px;
+//    }
+//    100% {
+//     top: 0px;
+//   }
+// }
+
+.link-to-project a{
+  text-decoration: none;
+  color: white;
+ 
+}
+
 
 .link-to-project *:hover{
   background-color: rgb(65, 65, 65);
