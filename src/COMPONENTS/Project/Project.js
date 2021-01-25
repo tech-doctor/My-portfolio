@@ -21,10 +21,11 @@ class Project extends Component {
           <img src = 'img/profile-pics.jpg' alt = " my-pics"></img>
         </div>
         <div className = "project">
-          {projects.map((project) =>
+          {/* {projects.map((project) =>
           ( <Details key={project.id} data={project} 
             projectArray = {this.state.projects}
-          /> ))}
+          /> ))} */}
+          <Details project = {projects}/>
         </div>
 
         </div>

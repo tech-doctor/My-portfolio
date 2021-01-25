@@ -14,6 +14,18 @@ const aboutGeoserch = "Geosearch allows users to search  for places and extract 
 const ProjectData = [
     {
         id: uuid(),
+        title: 'Movie-search',
+        icon: <i className = 'fa fa-angle-right'></i>,
+        aboutProject: aboutMovieSearch,
+        image: 'img/Movie.jpg',
+        live: 'https://moviesearchproject.netlify.app/',
+        git: 'https://github.com/tech-doctor/Movie-search-app',
+        stack: 'HTML + CSS + Javascript',
+        isPrivate: false
+    },
+
+    {
+        id: uuid(),
         title: 'Todo-list',
         icon: <i className = 'fa fa-angle-right'></i>,
         aboutProject: aboutTodo,
@@ -35,19 +47,6 @@ const ProjectData = [
         git: 'https://github.com/tech-doctor/CGPA-calculator',
         isPrivate: false
     },
-
-    {
-        id: uuid(),
-        title: 'Movie-search',
-        icon: <i className = 'fa fa-angle-right'></i>,
-        aboutProject: aboutMovieSearch,
-        image: 'img/Movie.jpg',
-        live: 'https://moviesearchproject.netlify.app/',
-        git: 'https://github.com/tech-doctor/Movie-search-app',
-        stack: 'HTML + CSS + Javascript',
-        isPrivate: false
-    },
-
     {
         id: uuid(),
         title: 'Geosearch',
