@@ -12,9 +12,9 @@
 
 
 ### Image: 
- <img src="public/img/desktop portfolio mockup.png" width="50%" height="50%">  |   <img src="img/portfolio mockup.png" width="18%" height="18%">
+ <img src="public/img/desktop portfolio mockup.png" width="50%" height="50%">  |   <img src="public/img/portfolio mockup.png" width="18%" height="18%">
  
- <img src="img/portfolio.png" width="60%" height="60%">
+ <img src="public/img/portfolio.png" width="60%" height="60%">
 
 
 ### live preview:  
