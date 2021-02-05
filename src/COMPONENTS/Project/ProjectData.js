@@ -11,6 +11,9 @@ const aboutMovieSearch = `The aim of this project was to build a web app which d
 
 const aboutGeoserch = "Geosearch allows users to search  for places and extract information such as Map, Temperatures and local weather condition.An extra features which allows easy interconversion between celsius and fahrenheit was also included"
 
+const aboutMyPortfolio = "about portfolio"
+
+
 const ProjectData = [
     {
         id: uuid(),
@@ -21,6 +24,17 @@ const ProjectData = [
         live: 'https://moviesearchproject.netlify.app/',
         git: 'https://github.com/tech-doctor/Movie-search-app',
         stack: 'HTML + CSS + Javascript',
+        isPrivate: false
+    },
+    {
+        id: uuid(),
+        title: 'My portfolio',
+        icon: <i className = 'fa fa-angle-right'></i>,
+        aboutProject: aboutMyPortfolio,
+        image: 'img/portfolio.png',
+        live: 'https://olukaisaac.netlify.app/',
+        git: 'https://github.com/tech-doctor/My-portfolio',
+        stack: 'ReactJS + SCSS',
         isPrivate: false
     },
 
