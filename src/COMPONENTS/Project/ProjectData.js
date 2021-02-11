@@ -11,7 +11,7 @@ const aboutMovieSearch = `The aim of this project was to build a web app which d
 
 const aboutGeoserch = "Geosearch allows users to search  for places and extract information such as Map, Temperatures and local weather condition.An extra features which allows easy interconversion between celsius and fahrenheit was also included"
 
-const aboutMyPortfolio = "about portfolio"
+const aboutMyPortfolio = "My official portfolio website which contains my experiences, projects i have worked on and other little information about me."
 
 
 const ProjectData = [
