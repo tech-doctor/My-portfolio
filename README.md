@@ -5,11 +5,11 @@ My official  portfolio website which contains my experiences, projects i have wo
 
 
 ### Technology stack:
-* ReactJS
+* ReactJS - Lifting state up approach for State management
 * SCSS
 
 ### Status: 
-webapp still under development.
+webapp still under development(converting all CSS to Sass )
 
 
 
