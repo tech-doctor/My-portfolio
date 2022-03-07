@@ -16,16 +16,16 @@ class App extends Component {
      loading: true
    };
 
-   componentDidMount() {
-     demoAsyncCall().then(() => this.setState({loading: false}));
-   }
+  //  componentDidMount() {
+  //    demoAsyncCall().then(() => this.setState({loading: false}));
+  //  }
 
   render(){
-    const { loading } = this.state;
+    // const { loading } = this.state;
       
-    if(loading) {
-      return <div className = "loading"></div>
-    }
+    // if(loading) {
+    //   return <div className = "loading"></div>
+    // }
   return (
     <div>
     <Router>
@@ -84,8 +84,8 @@ class App extends Component {
   }
 }
 
-function demoAsyncCall() {
-  return new Promise((resolve) => setTimeout(() => resolve(), 1000))
-}
+// function demoAsyncCall() {
+//   return new Promise((resolve) => setTimeout(() => resolve(), 1000))
+// }
 
 export default App;

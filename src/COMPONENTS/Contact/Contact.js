@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Form from './Form/Form'
-import Map from './Map/GoogleMap'
+//import Map from './Map/GoogleMap'
 
 
 class Contact extends Component {
@@ -8,7 +8,7 @@ class Contact extends Component {
         return (
             <div className = 'contact'>
                 <Form/>
-                <Map/>     
+                {/* <Map/>      */}
             </div>
         )
     }

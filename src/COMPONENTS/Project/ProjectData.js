@@ -1,8 +1,8 @@
 import React from 'react'
 import uuid from 'react-uuid'
 
-const aboutTodo = `The task was to build a ReactJS web app that tracks everyday activity of users in a coordinated manner.`;
 
+const aboutMagicMind = `An app that detects the number of human faces present in a picture and specifies the face area on load`
 
 const aboutCGPA = `CGPA calculator is a tool that allows tertiary institutiion students to calculate their 
 Cumulative Grade Point Average on an average scale of 5.0.`;
@@ -15,6 +15,17 @@ const aboutMyPortfolio = "My official portfolio website which contains my experi
 
 
 const ProjectData = [
+    {
+        id: uuid(),
+        title: 'Magic-mind',
+        icon: <i className = 'fa fa-angle-right'></i>,
+        aboutProject: aboutMagicMind,
+        image: 'img/magic-mind.jpg',
+        live: 'https://magic-mind.netlify.app/',
+        git: 'https://github.com/tech-doctor/Face-Recognition-App',
+        stack: 'ReactJS + Context Api',
+        isPrivate: false
+    },
     {
         id: uuid(),
         title: 'Movie-search',
@@ -35,18 +46,6 @@ const ProjectData = [
         live: 'https://olukaisaac.netlify.app/',
         git: 'https://github.com/tech-doctor/My-portfolio',
         stack: 'ReactJS + SCSS',
-        isPrivate: false
-    },
-
-    {
-        id: uuid(),
-        title: 'Todo-list',
-        icon: <i className = 'fa fa-angle-right'></i>,
-        aboutProject: aboutTodo,
-        image: 'img/Todo.jpg',
-        live: 'https://my-todolist-app.netlify.app/',
-        git: 'https://github.com/tech-doctor/React-todo-list',
-        stack: 'React + Sass',
         isPrivate: false
     },
 
