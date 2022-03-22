@@ -1,81 +1,76 @@
- 
- .about{
-    padding: 15px;
-    animation: about 2.5s;
-    animation-iteration-count: 1; 
- @keyframes about {
-    0%{
-        opacity: 0.2;
+.about {
+  padding: 15px;
+  animation: about 2.5s;
+  animation-iteration-count: 1;
+  @keyframes about {
+    0% {
+      opacity: 0.2;
     }
-    
-    50%{
-        opacity: 0.5;
+
+    50% {
+      opacity: 0.5;
     }
-    
-    100%{
-    opacity: 1;
+
+    100% {
+      opacity: 1;
     }
-    }
-    
+  }
 }
 
-.about-heading{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.about-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
 }
-.about-content{
-    color: rgb(247, 247, 247);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+.about-content {
+  color: rgb(247, 247, 247);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 .about-content a {
-    text-decoration: none;
-    color: rgb(209, 188, 147);
+  text-decoration: none;
+  color: rgb(209, 188, 147);
 }
-.about-content a:hover{
-    text-decoration: underline;
+.about-content a:hover {
+  text-decoration: underline;
 }
-
-
 
 .tech p {
-    color: rgb(199, 199, 199);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+  color: rgb(199, 199, 199);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 .tech-content {
-    padding: 15px;
+  padding: 15px;
 }
 
-.tech-content *:not(i){
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(228, 228, 228);
+.tech-content *:not(i) {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(228, 228, 228);
 }
 
-#line{
-    width: 110px;
-    margin-left: 0px;
-    margin-top: -5px;
-} 
+#line {
+  width: 110px;
+  margin-left: 0px;
+  margin-top: -5px;
+}
 
-
-.tech-content{
-    padding: 8px;
-    display: flex; 
-    align-items: center;
-    justify-content: space-around;   
-*{
+.tech-content {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  * {
     padding: 7px;
+  }
 }
-}
 
+.get-in-touch {
+  text-align: center;
+  margin-top: 55px;
 
-.get-in-touch{
-    text-align: center;
-    margin-top: 55px;
-
-button{
+  button {
     padding: 7px;
     border-radius: 6px;
     border: dotted;
@@ -83,31 +78,29 @@ button{
     color: white;
     background: rgb(26, 26, 26);
     cursor: pointer;
-}
-*{
+  }
+  * {
     text-decoration: none;
     color: white;
-}
+  }
 }
 
 @media (min-width: 800px) {
-    .about{
-        width: 90%;
-        margin: auto;
-    }
+  .about {
+    width: 90%;
+    margin: auto;
+  }
 }
 
-@media(max-width: 700px){
-    .about-content{
-        font-size: 12px;
-    }
-    .tech p {
-        font-size: 12px;
-    }
-    .tech-content *:not(i){
-        color: rgb(212, 212, 212);
-        font-size: 14px;
-    }
-    
+@media (max-width: 700px) {
+  .about-content {
+    font-size: 12px;
+  }
+  .tech p {
+    font-size: 12px;
+  }
+  .tech-content *:not(i) {
+    color: rgb(212, 212, 212);
+    font-size: 14px;
+  }
 }
-

@@ -45,14 +45,21 @@ import {Link} from 'react-router-dom'
               <span></span>
               </div>
               <div className = "title">
-                  <p>Udemy<span><br/>NOV 2018 - SEPT 2019</span></p>
+                  <p>Hacker Hero<span><br/>OCT 2021 - Present</span></p>
               </div>
               <article className = " description">
-                  <p>Learnt how the web works on the internet as well as its development</p>
+                  <p>Learnt the introduction to the intellectual enterprises of computer science and the art of programming.</p>
+                  <p><span>■</span>Algorithm & Data-science</p>
+              </article>
+            </section><br/>
 
-                  <p><span>■</span> 2019 complete web development bootcamp</p>
-              <p><span>■</span> Zero to mastery for  web developer in 2019 </p> 
-      
+            <section className = "experience-content">
+              <div className = "title">
+                  <p>CS50<span><br/>APRIL - NOV 2021</span></p>
+              </div>
+              <article className = " description">
+              <p>Learnt the introduction to the intellectual enterprises of computer science and the art of programming.</p>
+              <p><span>■</span>Introduction to Computer Science</p>
               </article>
             </section><br/>
 
@@ -61,18 +68,29 @@ import {Link} from 'react-router-dom'
                   <p>Technical Writing<span><br/>JULY - SEP 2020</span></p>
               </div>
               <article className = " description">
-                  <p>Learnt how to write clearer Techincal Documentations and  also improve my Technical communication skills</p>
+                  <p>Learnt how to write clearer Technical Documentations and  also improve my Technical communication skills</p>
 
                   <p><span>■</span> Google developer Technical Writing course</p>
               </article>
             </section><br/>
+             
+            <section className = "experience-content">
+              <div className = "title">
+                  <p>Udemy<span><br/>NOV 2018 - SEP 2019</span></p>
+              </div>
+              <article className = " description">
+                  <p>Learnt how the web works on the internet as well as its development</p>
+
+                  <p><span>■</span> 2019 complete web development bootcamp</p>
+                  <p><span>■</span> Zero to mastery for  web developer in 2019 </p> 
+              </article>
+            </section><br/>
+
             <div className ="download-cv">
-              <a href= "My Resume .pdf" download="isaac's resume">
+              <a href= "March-CV.pdf" download="isaac's resume">
             <p><i className="fa fa-download" aria-hidden="true"></i> Download Resume</p>
             </a>
-              
             </div>
-
             {/* <section className = "experience-content">
               <div className = "divider">
               <p>Community</p>

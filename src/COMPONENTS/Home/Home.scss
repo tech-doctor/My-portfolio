@@ -1,17 +1,16 @@
-.home{
+.home {
   text-align: center;
-  padding: 0px 20px;  
+  padding: 0px 20px;
   animation: about 0.5s;
   margin-top: 50px;
 }
 
-
-.home-content span:nth-of-type(1){
+.home-content span:nth-of-type(1) {
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
+}
 
-.home-content span:nth-of-type(2){
+.home-content span:nth-of-type(2) {
   color: rgb(134, 134, 134);
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,77 +18,53 @@
 
 .home-content p:nth-of-type(1) {
   font-size: 20px;
-  font-family: cursive; 
+  font-family: cursive;
 }
-
-
 
 .home-content p:nth-of-type(2) {
   font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
   width: 50%;
-  margin:  1em auto;
+  margin: 1em auto;
 }
 
-// .home-content button{
-//   animation: view 3s;
-// }
-
-// @keyframes view{
-//    0% {
-//      top: 2px;
-//    }
-//    100% {
-//     top: 0px;
-//   }
-// }
-
-.profile-pics{
+.profile-pics {
   width: 160px;
-  height: 185px ;
+  height: 160px;
   border-radius: 50%;
   margin-top: 35px;
 }
 
-.link-to-project button{
+img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.link-to-project button {
   text-decoration: none;
   color: white;
   background-color: rgb(54, 54, 54);
   border: none;
   padding: 10px 15px;
   outline: none;
- 
 }
-// .link-to-project *{
-//   animation: view;
-// }
-// @keyframes view{
-//    0% {
-//      top: -20px;
-//    }
-//    100% {
-//     top: 0px;
-//   }
-// }
 
-.link-to-project a{
+.link-to-project a {
   text-decoration: none;
   color: white;
- 
 }
 
-
-.link-to-project *:hover{
+.link-to-project *:hover {
   background-color: rgb(65, 65, 65);
 }
 
-@media(max-width:700px) {
-  .home-content span:nth-of-type(1){
+@media (max-width: 700px) {
+  .home-content span:nth-of-type(1) {
     font-size: 22px;
-   }
+  }
 
-   .home-content span:nth-of-type(2){
+  .home-content span:nth-of-type(2) {
     font-size: 13px;
   }
   .home-content p:nth-of-type(2) {
@@ -97,8 +72,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
     width: 90%;
-    margin:  1em auto;
+    margin: 1em auto;
   }
-  
 }
-
