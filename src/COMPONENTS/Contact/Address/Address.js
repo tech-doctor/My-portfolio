@@ -6,7 +6,7 @@ import './Address.scss'
         return (
             <div className = 'address'>
               <p>Isaac, <br/>Benin city <br/> Edo state, Nigeria</p>
-              <p>Mail: hilghsilk2damson@gmail.com</p>
+              <address>hilghsilk2damson@gmail.com</address>
             </div>
         )
     }

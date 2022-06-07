@@ -19,7 +19,7 @@ class About extends Component {
             <p>I have a great time management skill and the ability to deliver before deadlines.</p>
           </div>
           <div className = "tech">
-            <p>Here are the technologies  I've worked with:</p>
+            <p>Here are some of  the technologies  I've worked with:</p>
             <div className =" tech-content">
               <div className = "tech-1">
               <i className = "fas fa-caret-right"><span>HTML & CSS3/SCSS</span></i><br/>
@@ -30,7 +30,7 @@ class About extends Component {
                 <i className = "fas fa-caret-right"><span>TailwindCSS</span></i><br/>
               </div>
               <div className = "tech-3">
-                <i className = "fas fa-caret-right"><span>Styled Component</span></i><br/>
+                <i className = "fas fa-caret-right"><span>Nextjs</span></i><br/>
                 <i className = "fas fa-caret-right"><span>Firebase</span></i>
               </div>
             </div>

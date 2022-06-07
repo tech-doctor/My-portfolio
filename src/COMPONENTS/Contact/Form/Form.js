@@ -18,7 +18,7 @@ class ContactForm extends Component {
         const { status, loading } = this.state;
         return (
             <div className = 'first-div'>
-            <div className = 'form'>
+            <div className = 'form '>
                 <form action = "https://formspree.io/moqpaqov" method="POST"  onSubmit = {this.submitForm}>
                   <div className = 'name'>
                    <input required type = "text" name = "name" placeholder = 'Name'/>
@@ -34,7 +34,7 @@ class ContactForm extends Component {
                     {status === 'ERROR' &&      <p style={{textAlign: 'center', color: 'red', fontSize: '20px'}} className = "error-message">Ooops!  There was an error.</p>}  
                 </form>
             </div> 
-              <div>
+              <div className='address-div'>
                   <Address/>
               </div> 
             </div>      
@@ -44,7 +44,6 @@ class ContactForm extends Component {
     submitForm(event) {
         event.preventDefault();
          const form = event.target;
-         //console.log(form.reset())
          const data = new FormData(form);
          console.log(data)
          const request = new XMLHttpRequest();
@@ -72,6 +71,3 @@ class ContactForm extends Component {
 
 
 export default ContactForm
-
-
-//  NOTE: XMLHttpRequest.DONE = 4

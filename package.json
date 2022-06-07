@@ -13,7 +13,6 @@
     "@testing-library/user-event": "^7.2.1",
     "emotion-theming": "^10.0.27",
     "framer-motion": "^3.2.2-rc.1",
-    "google-maps-react": "^2.0.6",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -41,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }

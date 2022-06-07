@@ -55,6 +55,17 @@ import {Link} from 'react-router-dom'
 
             <section className = "experience-content">
               <div className = "title">
+                  <p>Udacity<span><br/>APRIL 2022 - MAY 2022</span></p>
+              </div>
+              <article className = " description">
+                  <p>Learnt about some key concepts of object oriented programming, in the likes of  Higher order functions, Inheritance, closure and the likes</p>
+
+                  <p><span>■</span> Javascript programming</p>
+              </article>
+            </section><br/>
+
+            <section className = "experience-content">
+              <div className = "title">
                   <p>CS50<span><br/>APRIL - NOV 2021</span></p>
               </div>
               <article className = " description">
@@ -75,44 +86,24 @@ import {Link} from 'react-router-dom'
             </section><br/>
              
             <section className = "experience-content">
-              <div className = "title">
-                  <p>Udemy<span><br/>NOV 2018 - SEP 2019</span></p>
-              </div>
-              <article className = " description">
-                  <p>Learnt how the web works on the internet as well as its development</p>
-
-                  <p><span>■</span> 2019 complete web development bootcamp</p>
-                  <p><span>■</span> Zero to mastery for  web developer in 2019 </p> 
-              </article>
-            </section><br/>
-
-            <div className ="download-cv">
-              <a href= "March-CV.pdf" download="isaac's resume">
-            <p><i className="fa fa-download" aria-hidden="true"></i> Download Resume</p>
-            </a>
-            </div>
-            {/* <section className = "experience-content">
               <div className = "divider">
               <p>Community</p>
               <span></span>
               </div>
               <div className = "title">
-                  <p>Facebook Developer Circle Benin<span><br/>SEPT 2019 - PRESENT</span></p>
+                  <p>Google Developers Student Club <span><br/>SEPT 2019 - PRESENT</span></p>
               </div>
               <article className = " description">
-                  <p> Currently contributing to an open source project at<a href ="https://github.com/tech-doctor/DevC-benin-jobs">DevC Benin jobs</a></p>
+                  <p></p>
               </article>
-            </section><br/> */}
-
-            {/* <section className = "experience-content">
-              <div className = "title">
-                  <p>Frontend Mentor<span><br/>JUNE 2020 - PRESENT</span></p>
-              </div>
-              <article className = " description">
-                  <p>Take part in the coding seasonal challeges</p>
-              </article>
-            </section> */}
+            </section><br/>
+            <div className ="download-cv">
+              <a href= "March-CV.pdf" download="isaac's resume">
+            <p><i className="fa fa-download" aria-hidden="true"></i> Download Resume</p>
+            </a>
             </div>
+            </div>
+            
           <div className="home-project">
               <Link to='/'> <button className ="experience-home"><i className = "fas fa-arrow-left"></i> Home</button></Link>
               <Link to='/project'> <button className = "experience-project">Project <i className = "fas fa-arrow-right"></i></button></Link>  
