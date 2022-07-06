@@ -16,19 +16,39 @@ import {Link} from 'react-router-dom'
               <span></span>
               </div>
               <div className = "title">
-                  <p>1 .Hotels.NG<span><br/>MAY - JULY 2020</span></p>
+                  <p>1 .Smatcity(contract)<span><br/>March - JUNE 2022</span></p>
               </div>
               <article className = " description">
-                  <p><span>■</span> Led my frontend team on working coding challenge</p>
-              <p><span>■</span> Built Hotel booking landing page with teams of frontend developer</p> 
-              {/* <p><span>■</span> Headed the frontend department of my team to deliver responsive web templates to be sold on envato market</p>  */}
-              <p><span>■</span>Worked with backend developers to build an airtime service web app</p> 
+                  <p><span>■</span> An online real estate platform that reduces the stress of getting and giving out accommodation to students on campuses.</p>
               </article>
             </section>
             <br/>
             <section className = "experience-content">
               <div className = "title">
-                  <p> 2. DevC Trainig With Andela<span><br/>SEP - NOV 2019</span></p>
+                 <p>2 .Upwork<span><br/>MARCH 2021 - Till-date</span></p>
+              </div>
+              <article className = " description">
+              <p><span>■</span> Helped clients to Elevate their business and increase sales by optimizing their existing web platform</p>
+              <p><span>■</span> Built several web  platforms for client  to scale their businesses.</p> 
+              </article>
+            </section>
+            <br/>
+
+            <section className = "experience-content">
+              <div className = "title">
+                 <p>3 .Hotels.NG<span><br/>MAY - JULY 2020</span></p>
+              </div>
+              <article className = " description">
+              <p><span>■</span> Led my frontend team on working coding challenge</p>
+              <p><span>■</span> Built Hotel booking landing page with teams of frontend developer</p> 
+              <p><span>■</span>Worked with backend developers to build an airtime service web app</p> 
+              </article>
+            </section>
+            <br/>
+
+            <section className = "experience-content">
+              <div className = "title">
+                  <p> 4. DevC Trainig With Andela<span><br/>SEP - NOV 2019</span></p>
               </div>
               <article className = " description">
               <p><span>■</span>I leveled up my development skills on the fundamental and core web technologies</p>
@@ -98,7 +118,7 @@ import {Link} from 'react-router-dom'
               </article>
             </section><br/>
             <div className ="download-cv">
-              <a href= "March-CV.pdf" download="isaac's resume">
+              <a href= "My-Resume.pdf" download="isaac's resume">
             <p><i className="fa fa-download" aria-hidden="true"></i> Download Resume</p>
             </a>
             </div>

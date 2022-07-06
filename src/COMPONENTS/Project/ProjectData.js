@@ -11,6 +11,8 @@ const aboutGeoserch = "Geosearch allows users to search  for places and extract 
 
 const aboutReelio = "Reelio is a product that allows Retailers run their businesses anywhere. They can manage their orders, engage customers, and receive payments for their goods all in one place."
 
+const aboutFElearn= 'An online platform that allow users to learn the core web frontend technologies(HTML, CSS, Javascript) in Pidgin. Users are able to watch courses directly on the platform, add to cart, checkout and make payment(test mode) for their desired courses to have full access.'
+
 
 
 const ProjectData = [
@@ -23,6 +25,17 @@ const ProjectData = [
         live: 'https://m-uber-clone.netlify.app/',
         stack: 'Reactjs + Typescript',
         git: 'https://github.com/tech-doctor/uber-clone',
+        isPrivate: false
+    },
+    {
+        id: uuid(),
+        title: 'FElearn',
+        icon: <i className = 'fa fa-angle-right'></i>,
+        aboutProject: aboutFElearn,
+        image: 'img/FElearn.jpg',
+        live: 'https://fe-learn.netlify.app/',
+        stack: 'Reactjs + Redux',
+        git: 'https://github.com/tech-doctor/onlineCourse',
         isPrivate: false
     },
     {
