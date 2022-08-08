@@ -16,16 +16,27 @@ import {Link} from 'react-router-dom'
               <span></span>
               </div>
               <div className = "title">
-                  <p>1 .Smatcity(contract)<span><br/>March - JUNE 2022</span></p>
+                  <p>1 .VISTAdj(part-time)<span><br/>JUNE - AUGUST 2022</span></p>
+              </div>
+              <article className = " description">
+                  <p><span>■</span>Currently building an health-care product with patients and Doctors onboarding.</p>
+              </article>
+            </section>
+            <br/>
+
+            <section className = "experience-content">
+              <div className = "title">
+              <p>2 .Smatcity(contract)<span><br/>March - JUNE 2022</span></p>
               </div>
               <article className = " description">
                   <p><span>■</span> An online real estate platform that reduces the stress of getting and giving out accommodation to students on campuses.</p>
               </article>
             </section>
             <br/>
+
             <section className = "experience-content">
               <div className = "title">
-                 <p>2 .Upwork<span><br/>MARCH 2021 - Till-date</span></p>
+                 <p>3 .Upwork<span><br/>MARCH 2021 - Till-date</span></p>
               </div>
               <article className = " description">
               <p><span>■</span> Helped clients to Elevate their business and increase sales by optimizing their existing web platform</p>

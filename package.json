@@ -13,12 +13,12 @@
     "@testing-library/user-event": "^7.2.1",
     "emotion-theming": "^10.0.27",
     "framer-motion": "^3.2.2-rc.1",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-uuid": "^1.0.2"
+    "react-uuid": "^1.0.2",
+    "sass": "^1.54.3"
   },
   "scripts": {
     "start": "react-scripts start",
