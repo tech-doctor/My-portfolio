@@ -33,7 +33,7 @@ import {Link} from 'react-router-dom'
               <p>2 .VISTAdj(part-time)<span><br/>JUNE - AUGUST 2022</span></p>
               </div>
               <article className = " description">
-                  <p><span>■</span>Currently building an health-care product with patients and Doctors onboarding.</p>
+                  <p><span>■</span>Built an health-care product with patients and Doctors onboarding.</p>
               </article>
             </section>
             <br/>
