@@ -16,20 +16,24 @@ import {Link} from 'react-router-dom'
               <span></span>
               </div>
               <div className = "title">
-                  <p>1 .VISTAdj(part-time)<span><br/>JUNE - AUGUST 2022</span></p>
+                  <p>1. Lalo(Contract)<span><br/>AUGUST 2022 - PRESENT</span></p>
               </div>
               <article className = " description">
-                  <p><span>■</span>Currently building an health-care product with patients and Doctors onboarding.</p>
+                  <p> Lalo is a United state based startup that involves building a private space to share family memories.</p>
+                  <p><span>■</span>Currently redesigning the landing page and the official blog page at Lalo.</p>
+                  <p><span>■</span>Optimising the existing codebase in terms of performance.</p>
+                  <p><span>■</span>Improving the Search engine optimization on the official website to reduce the bouncing rate and drive more traffic.</p>
+                  <p><span>■</span>Improving the product’s visibility by making the web app more accessible</p>
               </article>
             </section>
             <br/>
 
             <section className = "experience-content">
               <div className = "title">
-              <p>2 .Smatcity(contract)<span><br/>March - JUNE 2022</span></p>
+              <p>2 .VISTAdj(part-time)<span><br/>JUNE - AUGUST 2022</span></p>
               </div>
               <article className = " description">
-                  <p><span>■</span> An online real estate platform that reduces the stress of getting and giving out accommodation to students on campuses.</p>
+                  <p><span>■</span>Currently building an health-care product with patients and Doctors onboarding.</p>
               </article>
             </section>
             <br/>
@@ -47,7 +51,7 @@ import {Link} from 'react-router-dom'
 
             <section className = "experience-content">
               <div className = "title">
-                 <p>3 .Hotels.NG<span><br/>MAY - JULY 2020</span></p>
+                 <p>4 .Hotels.NG<span><br/>MAY - JULY 2020</span></p>
               </div>
               <article className = " description">
               <p><span>■</span> Led my frontend team on working coding challenge</p>
@@ -59,7 +63,7 @@ import {Link} from 'react-router-dom'
 
             <section className = "experience-content">
               <div className = "title">
-                  <p> 4. DevC Trainig With Andela<span><br/>SEP - NOV 2019</span></p>
+                  <p> 5. DevC Trainig With Andela<span><br/>SEP - NOV 2019</span></p>
               </div>
               <article className = " description">
               <p><span>■</span>I leveled up my development skills on the fundamental and core web technologies</p>

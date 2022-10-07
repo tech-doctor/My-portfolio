@@ -11,8 +11,9 @@ class About extends Component {
             <hr id ="line"></hr>
           </div>
           <div className = "about-content">
-            <p>I'm a Software developer with over 3 years of general software development experience and about 2 years of experience writing Javascript and ReactJs.</p> 
+            <p>I'm a Software developer with over 3 years of general software development experience and over 2 years of experience writing Javascript and ReactJs.</p> 
             <p>I build product with an on-page optimization to produce relevant search results and positive user experience, growing site traffic, lead volume and brand awareness and also increase the web visibility within the search engine, which ultimately results in incresed traffic and more sales</p>
+            <p>I'm big on dilivering well Optimized product with great user experience, web accessibility(a11y), writing unit tests, and including best practises while writing code </p>
             <p>As a well organised person and a problem solver, I enjoy working on ambitious projects with positive people to create things that live on the computer. My main area of specialisation is the frontend(client side of the web) with the utmost goal to providing  an almost perfect user experience</p>
             <p>I am a  passionate developer  community member that loves to make contributions on  opensource  projects.
             I also love discussing about tech and how the world can be changed through it</p>

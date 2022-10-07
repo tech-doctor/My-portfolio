@@ -13,7 +13,9 @@ const aboutReelio = "Reelio is a product that allows Retailers run their busines
 
 const aboutFElearn= 'An online platform that allow users to learn the core web frontend technologies(HTML, CSS, Javascript) in Pidgin. Users are able to watch courses directly on the platform, add to cart, checkout and make payment(test mode) for their desired courses to have full access.'
 
+const aboutReactSlider = 'React slider is a react developer tool library  developed with the aim of improving frontend developers productivity' 
 
+ const aboutMadeInNigeria = 'This is one of my Open source project that I contributed to. It is a curation List of awesome tools built by Nigerians that can be used by anybody and from anywhere in the world.'
 
 const ProjectData = [
     {
@@ -38,6 +40,29 @@ const ProjectData = [
         git: 'https://github.com/tech-doctor/onlineCourse',
         isPrivate: false
     },
+    {
+        id: uuid(),
+        title: 'React-slider',
+        icon: <i className = 'fa fa-angle-right'></i>,
+        aboutProject: aboutReactSlider,
+        image: 'img/React-slider.png',
+        live: 'https://react-cards-slider.netlify.app/',
+        stack: 'Reactjs + Typescript',
+        git: 'https://github.com/tech-doctor/react-card-slider',
+        isPrivate: false
+    },
+    {
+        id: uuid(),
+        title: 'Made in Nigeria',
+        icon: <i className = 'fa fa-angle-right'></i>,
+        aboutProject: aboutMadeInNigeria,
+        image: 'img/made-in-nigeria.png',
+        live: 'https://www.madeinnigeria.dev/',
+        stack: 'contributor',
+        git: 'https://github.com/tech-doctor/made-in-nigeria',
+        isPrivate: false
+    },
+    
     {
         id: uuid(),
         title: 'Reelio',
@@ -70,17 +95,17 @@ const ProjectData = [
         stack: 'HTML + CSS + Javascript',
         isPrivate: false
     },
-    {
-        id: uuid(),
-        title: 'Geosearch',
-        icon: <i className = 'fa fa-angle-right'></i>,
-        aboutProject: aboutGeoserch,
-        image: 'img/Geosearch.jpg',
-        live: 'https://personalgeosearch.netlify.app/',
-        stack: 'HTML + CSS + Javascript',
-        git: 'https://github.com/tech-doctor/Geosearch',
-        isPrivate: false
-    },
+    // {
+    //     id: uuid(),
+    //     title: 'Geosearch',
+    //     icon: <i className = 'fa fa-angle-right'></i>,
+    //     aboutProject: aboutGeoserch,
+    //     image: 'img/Geosearch.jpg',
+    //     live: 'https://personalgeosearch.netlify.app/',
+    //     stack: 'HTML + CSS + Javascript',
+    //     git: 'https://github.com/tech-doctor/Geosearch',
+    //     isPrivate: false
+    // },
 ]
 
 

@@ -21,13 +21,20 @@ class ContactForm extends Component {
             <div className = 'form '>
                 <form action = "https://formspree.io/moqpaqov" method="POST"  onSubmit = {this.submitForm}>
                   <div className = 'name'>
-                   <input required type = "text" name = "name" placeholder = 'Name'/>
+                   <input
+                    required type = "text" name = "name" placeholder = 'Name'
+                    autoComplete='off'
+                    />
                   </div>
                   <div className = 'email'>
-                   <input required type = "email" name = "email" placeholder = 'Email'/>
+                   <input required type = "email" name = "email" placeholder = 'Email'
+                   autoComplete='off'
+                   />
                   </div>
                   <div className = 'message'>
-                   <textarea  required  name="message" rows="10"  minLength="30" placeholder = 'Message'/>
+                   <textarea  required  name="message" rows="10"  minLength="30" placeholder = 'Message'
+                   autoComplete='off'
+                   />
                   </div>
                     <button className = "button" type = "submit">{ !loading ? "Send" : <i className = "fas fa-ellipsis-h"></i>}</button>
                     {status === 'SUCCESS' ? <Success submitted = {this.setStatus.bind(this)}/>: ""}
